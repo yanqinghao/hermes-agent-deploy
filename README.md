@@ -37,6 +37,7 @@ Bring the stack up:
 ```bash
 docker compose up -d
 docker compose logs -f
+docker image prune -f
 ```
 
 The deployment exposes:
